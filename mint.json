@@ -1,0 +1,74 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "RevenueCat API v1| In-App Purchase API",
+  "logo": {
+    "dark": "/logo-rc.svg",
+    "light": "/logo-rc.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Sign Up",
+      "url": "mailto:hi@mintlify.com"
+    },
+    {
+      "name": "Sign In",
+      "url": "mailto:hi@mintlify.com"
+    },
+    {
+      "name": "Documentation",
+      "url": "mailto:hi@mintlify.com"
+    },
+    {
+      "name": "Rest API",
+      "url": "mailto:hi@mintlify.com"
+    },
+    {
+      "name": "SDK Reference",
+      "url": "https://dashboard.mintlify.com"
+    },
+    {
+      "name": "Blog",
+      "url": "https://dashboard.mintlify.com"
+    },
+    {
+      "name": "Get Help",
+      "url": "https://dashboard.mintlify.com"
+    }
+  ],
+
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://dashboard.mintlify.com"
+  },
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "API Reference",
+      "pages": ["introduction","authentication","making-requests","url-parameters","transactions","customers","offerings","entitlements","customer-info"]
+    },
+    {
+      "group": "making-requests",
+      "pages": ["request-payload"]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/mintlify",
+    "github": "https://github.com/mintlify",
+    "linkedin": "https://www.linkedin.com/company/mintsearch"
+  }
+}
